@@ -1,0 +1,54 @@
+//Intensamente 
+
+class Persona {
+	var nivelDeFelicidad = 1000
+	var emocionDominante
+	var recuerdosAsentados = []
+	var pensamientosCentrales = #[]
+	
+	method asentarRecuerdo(recuerdo){
+		recuerdosAsentados.add(recuerdo)
+	}
+	
+	method recuerdosDelDia(){
+		return (recuerdosAsentados.reverse()).take(5)
+	}
+	
+	method pensamientosCentrales(){
+		return pensamientosCentrales
+	}
+	
+	method pensamientosCentralesDificiles(recuerdo){
+		recuerdo.descripcion() > 10
+	}
+	
+	
+}
+
+class RecuerdoAlegre { 
+	var emocionDominanteDelRecuerdo
+	var descripcion
+	var fecha 
+	
+	method descripcion(){
+		return descripcion
+	}
+}
+
+
+class RecuerdoTriste { 
+	var emocionDominanteDelRecuerdo
+	var descripcion
+	var fecha	var emocionDominanteDelRecuerdo
+	
+	
+}
+
+
+class RecuerdoDisgustoso { 
+	var emocionDominanteDelRecuerdo
+	var descripcion
+	var fecha	var emocionDominanteDelRecuerdo
+	
+	
+}
